@@ -5,7 +5,9 @@ package lesson5;
 
 public class Task1v1 {
     public static void main(String[] args) {
-   char[] array = new char[]{'М','а','к','с','и', 'м'};
+   char[] array = new char[]{'М','а','к','с','и', 'м'}; //создаем масив типа чар, инициализируем содержимое масива
+
+        // array[5] = 'к';       //так же можно каждый элемент массива записать таким образом
         System.out.println(array);
     }
 }
